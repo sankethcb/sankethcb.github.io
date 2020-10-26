@@ -9803,7 +9803,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #494f54 !important;
 }
 
 .text-secondary {
@@ -10100,7 +10100,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #448FA3;
 }
 
 .dev-icons {
