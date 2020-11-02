@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="shortcut icon" href="#">
+		<meta charset="utf-8">
+		<title>2 WIld 2 West</title>
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+		</style>
+	</head>
+	<script src="js/pixi.min.js"></script>
+	<script src="js/pixi-particles.min.js"></script>
+	<script src="js/bump.js" type=module></script>
+	<script src="js/howler.min.js" type=module></script>
+	<script src="js/webfontloader.js"></script>
+	<script src="js/loader.js" type=module></script>
+
+	<body>
+		<script type="text/javascript">
+			let type = "WebGL"
+			if (!PIXI.utils.isWebGLSupported()) {
+				type = "canvas"
+			}
+
+			PIXI.utils.sayHello(type);
+		</script>
+	</body>
+</html>
