@@ -40,3 +40,16 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+
+function pagingFunction (pageNo) {
+    if (pageNo == 1){            
+     document.getElementById("one").hidden="";
+      document.getElementById("two").hidden="hidden";               
+    }
+    else if (pageNo == 2){
+      document.getElementById("two").hidden="";
+      document.getElementById("one").hidden="hidden";
+
+    }
+}
